@@ -1,0 +1,48 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0rem;
+    font-size: 1.3rem;
+   
+}
+.about div{
+    margin: 2rem;
+    
+}
+
+.about h1{
+    margin: 0;
+    font-weight: 400;    
+}
+.about h2{
+    margin: 0;
+    font-weight: 200; 
+    color:#797979;   
+}
+.about h3{
+    margin: 0;
+    font-weight: 400; 
+    color:#33b38d;   
+}
+
+.image{
+    text-align: center;
+}
+
+.about img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-bottom: 50rem;
+    
+}
+
+.about p{
+    max-width: 50rem;
+    width: auto;
+    display: flex;
+    overflow-wrap: break-word;
+}
+
