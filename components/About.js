@@ -1,9 +1,11 @@
 import style from "./About.module.css";
+import Image from 'next/image';
+
 const About = () => {
   return (
     <div className={style.about}>
       <div className={style.image}>
-        <img alt="photo" src="/me.jpg" />
+        <Image alt="photo" src="/me.jpg" width="250" height="250"/>
         <h1>Arash Kariznovi</h1>
         <h2>Undergraduate Researcher</h2>
         <h3>Ferdowsi University</h3>
